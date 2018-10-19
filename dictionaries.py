@@ -13,3 +13,11 @@ course = example_dict["class"]
 print(course)
 
 #change a value via key
+example_dict["awesomeness"] += 1    #increase awesomeness
+
+#print the dictionary
+print(example_dict)
+
+#print dictionary element by element
+for x in example_dict.keys():
+    print(x,example_dict[x])
